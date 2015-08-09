@@ -1,12 +1,8 @@
-# angular-in-action
+# how to use
+grunt serve
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
+#tips
+this project is created by yeoman
 
-## Build & development
+yo angular angular_app
 
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
