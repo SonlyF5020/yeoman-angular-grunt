@@ -1,0 +1,14 @@
+<div ng-bind="someModule"></div>
+<button class="btn btn-default" ng-click="testRootRequest()">http://localhost:4567/</button>
+<button class="btn btn-default" ng-click="testAnotherRequest()">http://localhost:4567/anotherJson</button>
+<button class="btn btn-default" ng-click="conbinedRequest()">Combined</button>
+<button class="btn btn-default" ng-click="getLocation()">getLocation</button>
+<div ng-repeat="resultObject in resultList" class="item">
+    <h3 ng-bind="resultObject.myname"></h3>
+    <h4 ng-bind="resultObject.age"></h4>
+</div>
+<hr>
+<div class="item">
+    <h3> latitude : {{location.latitude}}</h3>
+    <h3> longitude : {{location.longitude}}</h3>
+</div>
